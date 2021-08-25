@@ -1,0 +1,26 @@
+.user-name {
+	color: rgb(171, 113, 224);
+}
+.user-message {
+	font-size: 2rem;
+	
+}
+
+.send-btn {
+	margin: 5px;
+}
+.msg {
+	border: 2px solid green;
+	border-radius: 5px;
+	padding: 5px;
+}
+input {
+	margin: 5px;
+}
+.user {
+	text-align: center;
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+}

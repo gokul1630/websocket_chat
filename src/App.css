@@ -1,9 +1,10 @@
 .user-name {
 	color: rgb(171, 113, 224);
+	padding: 1.5px;
 }
 .user-message {
-	font-size: 2rem;
-	
+	padding: 2px;
+	font-size: 1.5rem;
 }
 
 .send-btn {

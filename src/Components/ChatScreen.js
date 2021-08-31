@@ -25,6 +25,9 @@ const MessageDiv = styled.div`
 	justify-content: ${(props) => (props.isMe ? 'flex-end' : 'flex-start')};
 `
 const Message = styled.div`
+	margin-top: 10px;
+	margin-left: ${(props) => (props.isMe ? '0px' : '5px')};
+	margin-right: ${(props) => (props.isMe ? '5px' : '0px')};
 	border: 1px solid green;
 	border-top-left-radius: ${(props) => (props.isMe ? '20px' : '0px')};
 	border-top-right-radius: ${(props) => (props.isMe ? '0px' : '20px')};
